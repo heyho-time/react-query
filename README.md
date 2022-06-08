@@ -9,3 +9,7 @@
 ### Server State
 
 원격으로 유지되며 데이터 패칭, 업데이트를 위해 비동기 Api가 필요합니다.
+
+### json-server를 이용한다.
+
+yarn serve-json로 실행.
