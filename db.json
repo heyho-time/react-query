@@ -12,8 +12,68 @@
     },
     {
       "id": 3,
-      "name": "Wonder Woman",
+      "name": "Wonder Women",
       "alterEgo": "Princess Diana"
+    }
+  ],
+  "friends": [
+    {
+      "id": 1,
+      "name": "ryan"
+    },
+    {
+      "id": 2,
+      "name": "veri"
+    },
+    {
+      "id": 3,
+      "name": "harry"
+    }
+  ],
+  "users": [
+    {
+      "id": "harry@example.com",
+      "channelId": "harrytime"
+    }
+  ],
+  "channels": [
+    {
+      "id": "harrytime",
+      "courses": ["react", "vue", "angular"]
+    }
+  ],
+  "colors": [
+    {
+      "id": 1,
+      "label": "red"
+    },
+    {
+      "id": 2,
+      "label": "blue"
+    },
+    {
+      "id": 3,
+      "label": "green"
+    },
+    {
+      "id": 4,
+      "label": "yellow"
+    },
+    {
+      "id": 5,
+      "label": "black"
+    },
+    {
+      "id": 6,
+      "label": "white"
+    },
+    {
+      "id": 7,
+      "label": "orange"
+    },
+    {
+      "id": 8,
+      "label": "purple"
     }
   ]
 }
