@@ -23,6 +23,7 @@ yarn serve-json로 실행.
 - Initial query data
 - pagination
 - infinite
+- invalidate
 
 ### Querying by Id setup
 

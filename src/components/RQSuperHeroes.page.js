@@ -1,5 +1,6 @@
 import { useSuperHeroesData } from "../hooks/useSuperHeroesData";
 import { Link } from "react-router-dom";
+import { Fragment } from "react";
 
 export const RQSuperHeroesPage = () => {
   // Success and Error Callbacks
@@ -52,12 +53,10 @@ export const RQSuperHeroesPage = () => {
       <br />
       {data?.data.map((hero) => {
         return (
-          <>
-            <Link key={hero.id} to={`/rq-super-heroes/${hero.id}`}>
-              {hero.name}
-            </Link>
+          <Fragment key={hero.id}>
+            <Link to={`/rq-super-heroes/${hero.id}`}>{hero.name}</Link>
             <br />
-          </>
+          </Fragment>
         );
       })}
 
