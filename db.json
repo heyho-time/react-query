@@ -14,6 +14,21 @@
       "id": 3,
       "name": "Wonder Women",
       "alterEgo": "Princess Diana"
+    },
+    {
+      "name": "harry",
+      "alterEgo": "heyho",
+      "id": 4
+    },
+    {
+      "name": "harry",
+      "alterEgo": "heyho",
+      "id": 5
+    },
+    {
+      "name": "fdf",
+      "alterEgo": "ssd",
+      "id": 6
     }
   ],
   "friends": [
@@ -39,7 +54,11 @@
   "channels": [
     {
       "id": "harrytime",
-      "courses": ["react", "vue", "angular"]
+      "courses": [
+        "react",
+        "vue",
+        "angular"
+      ]
     }
   ],
   "colors": [

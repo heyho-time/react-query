@@ -11,6 +11,7 @@ import { DynamicParallelPage } from "./components/DynamicParallel.page";
 import { DependentQueriesPage } from "./components/DependentQueries.page";
 import { PaginatedQueriesPage } from "./components/PaginatedQueries.page";
 import { InfiniteQueriesPage } from "./components/InfiniteQueries.page";
+import { MutationPage } from "./components/MutationPage";
 
 const queryClient = new QueryClient();
 
@@ -30,9 +31,13 @@ function App() {
               <li>
                 <Link to="/rq-super-heroes">RQ Super Heroes</Link>
               </li>
+              <li>
+                <Link to="/rq-mutation">Mutation page</Link>
+              </li>
             </ul>
           </nav>
           <Routes>
+            <Route path="/rq-mutation" element={<MutationPage />} />
             <Route path="/rq-infinite" element={<InfiniteQueriesPage />} />
             <Route path="/rq-paginated" element={<PaginatedQueriesPage />} />
             <Route path="/rq-super-heroes/:heroId" element={<RQSuperHero />} />
