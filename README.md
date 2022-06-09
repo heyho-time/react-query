@@ -24,6 +24,7 @@ yarn serve-json로 실행.
 - pagination
 - infinite
 - invalidate
+- handling mutation response
 
 ### Querying by Id setup
 
