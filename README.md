@@ -21,6 +21,8 @@ yarn serve-json로 실행.
 - refetchOnMount
 - refetchOnWindowFocus
 - Initial query data
+- pagination
+- infinite
 
 ### Querying by Id setup
 
