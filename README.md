@@ -25,6 +25,8 @@ yarn serve-json로 실행.
 - infinite
 - invalidate
 - handling mutation response
+- optimistic updates
+- axios interceptor
 
 ### Querying by Id setup
 
@@ -39,3 +41,5 @@ yarn serve-json로 실행.
 3. fetch a superhero by id and display the details in the ui.
 
 id로 슈퍼 히어로를 가져오고 UI에 세부 정보 표시.
+
+https://www.youtube.com/watch?v=Cyyh9G5E6II&list=PLC3y8-rFHvwjTELCrPrcZlo6blLBUspd2&index=25
